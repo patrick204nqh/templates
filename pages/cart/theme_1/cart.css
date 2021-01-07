@@ -1,0 +1,109 @@
+/* cart */
+#cart-page #cart-content {
+    margin-top: 2rem;
+}
+#cart-page tbody tr th {
+    height: 4rem;
+    vertical-align: middle;
+}
+#cart-page tbody tr p {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+#cart-page tbody tr th .nice-select {
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center !important;
+}
+#cart-page tbody tr th .nice-select ul.list li.option{
+    text-align: center;
+}
+#cart-page tbody tr th button {
+    width: 40%;
+    padding: 0.2rem;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease-in;
+}
+#cart-page tbody tr th button.delete-btn {
+    background: rgb(197, 83, 83);
+}
+#cart-page tbody tr th button.update-btn {
+    background: #2a85be;
+}
+#cart-page tbody tr th button.delete-btn:hover {
+    background: #a93636;
+    color: #ddd;
+}
+#cart-page tbody tr th button.update-btn:hover {
+    background: #065a92;
+    color: #ddd;
+}
+#cart-page .buttons div a {
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+#cart-page .buttons div.pull-left a {
+    background: #2a85be;
+    color: #efefef;
+}
+#cart-page .buttons div.pull-left a:hover {
+    background: #065a92;
+}
+#cart-page .buttons div.pull-right a {
+    background: #c7a254;
+    color: #efefef;
+}
+#cart-page .buttons div.pull-right a:hover {
+    background: #a58133;
+}
+#cart-page .input_number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* hidden input number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+#cart-page img {
+    width: 100px;
+}
+#cart-page .input_number .value-button {
+    width: 2rem;
+    background: #ddd;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    border: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+#cart-page .input_number .value-button:hover {
+    background: rgb(175, 174, 174);
+}
+#cart-page .input_number input.num {
+    border: #ddd 2px solid;
+    width: 4rem;
+    text-align: center;
+}
+/* no select highlight */
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
